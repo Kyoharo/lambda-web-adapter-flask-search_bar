@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <script src="https://unpkg.com/htmx.org@1.9.4"></script>
+  <style>
+    /* Centered and styled title */
+
+    
+    .page-title {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 36px;
+      color: #333;
+      font-family: "Monospace", Gadget, sans-serif;
+      margin-top: 1cm;
+    }
+
+    /* Styled search input */
+    .input {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    /* Styled table */
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    .table th, .table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    .table th {
+      background-color: #f2f2f2;
+    }
+
+    /* Styled album list */
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 5px;
+    }
+
+    /* Footer styles */
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="page-title">{{ page_head }}</h1>
+  <section class="section">
+    <div class="columns">
+      <div class="column is-one-third is-offset-one-third">
+        <input type="text" class="input" placeholder="Search" name="q" hx-get="/search" hx-trigger="keyup changed delay:500ms" hx-target="#results">
+      </div>
+    </div>
+    <table class="table is-fullwidth">
+      <tbody id="results">
+        {% for result in results %}
+        <tr>
+          <td>{{ result.name }}</td>
+          <td>{{ result.city }}</td>
+          <td>{{ result.website }}</td>
+          <td>{{ result.biography }}</td>
+          <td>
+            <ul>
+              {% for album in result.albums %}
+              <li>{{ album.title }} ({{ album.release_year }})</li>
+              <ul>
+                {% for song in album.songs %}
+                <li>{{ song }}</li>
+                {% endfor %}
+              </ul>
+              {% endfor %}
+            </ul>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+  <footer class="footer">
+    &copy; Abdelrahman Ataa
+  </footer>
+</body>
+
+</html>

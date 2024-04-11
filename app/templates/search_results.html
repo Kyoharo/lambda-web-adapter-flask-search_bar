@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Results</title>
+</head>
+
+<body>
+  <h1>Search Results</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>City</th>
+        <th>Website</th>
+        <th>Biography</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for songer in results %}
+      <tr>
+        <td>{{ songer.name }}</td>
+        <td>{{ songer.city }}</td>
+        <td>{{ songer.website }}</td>
+        <td>{{ songer.biography }}</td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <h2>Albums</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Release Year</th>
+                <th>Songs</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for album in songer.albums %}
+              <tr>
+                <td>{{ album.title }}</td>
+                <td>{{ album.release_year }}</td>
+                <td>
+                  <ul>
+                    {% for song in album.songs %}
+                    <li>{{ song }}</li>
+                    {% endfor %}
+                  </ul>
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+
+</html>

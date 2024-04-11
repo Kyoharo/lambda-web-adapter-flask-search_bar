@@ -1,0 +1,196 @@
+<artists>
+    <songer>
+        <name>Queen</name>
+        <city>London, England</city>
+        <website>https://www.queenonline.com/</website>
+        <biography>Queen is a British rock band formed in London in 1970...</biography>
+        <albums>
+            <album>
+                <title>A Night at the Opera</title>
+                <release_year>1975</release_year>
+                <songs>
+                    <song>Bohemian Rhapsody</song>
+                    <song>You're My Best Friend</song>
+                    <!-- Add more songs as needed -->
+                </songs>
+            </album>
+            <album>
+                <title>News of the World</title>
+                <release_year>1977</release_year>
+                <songs>
+                    <song>We Will Rock You</song>
+                    <song>We Are the Champions</song>
+                    <!-- Add more songs as needed -->
+                </songs>
+            </album>
+            <!-- Add more albums as needed -->
+        </albums>
+    </songer>
+
+    <songer>
+        <name>The Beatles</name>
+        <city>Liverpool, England</city>
+        <website>https://www.thebeatles.com/</website>
+        <biography>The Beatles were an English rock band formed in Liverpool in 1960...</biography>
+        <albums>
+            <album>
+                <title>Abbey Road</title>
+                <release_year>1969</release_year>
+                <songs>
+                    <song>Come Together</song>
+                    <song>Here Comes the Sun</song>
+                    <!-- Add more songs as needed -->
+                </songs>
+            </album>
+            <album>
+                <title>Sgt. Pepper's Lonely Hearts Club Band</title>
+                <release_year>1967</release_year>
+                <songs>
+                    <song>Lucy in the Sky with Diamonds</song>
+                    <song>With a Little Help from My Friends</song>
+                    <!-- Add more songs as needed -->
+                </songs>
+            </album>
+            <!-- Add more albums as needed -->
+        </albums>
+    </songer>
+    <songer>
+        <name>Michael Jackson</name>
+        <city>Gary, Indiana, USA</city>
+        <website>https://www.michaeljackson.com/</website>
+        <biography>Michael Jackson was an American singer, songwriter, and dancer...</biography>
+        <albums>
+            <album>
+                <title>Thriller</title>
+                <release_year>1982</release_year>
+                <songs>
+                    <song>Thriller</song>
+                    <song>Beat It</song>
+                    <!-- Add more songs as needed -->
+                </songs>
+            </album>
+            <album>
+                <title>Bad</title>
+                <release_year>1987</release_year>
+                <songs>
+                    <song>Smooth Criminal</song>
+                    <song>Man in the Mirror</song>
+                    <!-- Add more songs as needed -->
+                </songs>
+            </album>
+            <!-- Add more albums as needed -->
+        </albums>
+    </songer>
+
+    <songer>
+        <name>Elvis Presley</name>
+        <city>Memphis, Tennessee, USA</city>
+        <website>https://www.elvis.com/</website>
+        <biography>Elvis Presley, known as the "King of Rock and Roll," was an American singer...</biography>
+        <albums>
+            <album>
+                <title>Elvis Presley</title>
+                <release_year>1956</release_year>
+                <songs>
+                    <song>Heartbreak Hotel</song>
+                    <song>Blue Suede Shoes</song>
+                    <!-- Add more songs as needed -->
+                </songs>
+            </album>
+            <album>
+                <title>From Elvis in Memphis</title>
+                <release_year>1969</release_year>
+                <songs>
+                    <song>Suspicious Minds</song>
+                    <song>In the Ghetto</song>
+                    <!-- Add more songs as needed -->
+                </songs>
+            </album>
+            <!-- Add more albums as needed -->
+        </albums>
+    </songer>
+
+    <songer>
+        <name>Bob Dylan</name>
+        <city>Duluth, Minnesota, USA</city>
+        <website>https://www.bobdylan.com/</website>
+        <biography>Bob Dylan is an American singer-songwriter, author, and visual artist...</biography>
+        <albums>
+            <album>
+                <title>Highway 61 Revisited</title>
+                <release_year>1965</release_year>
+                <songs>
+                    <song>Like a Rolling Stone</song>
+                    <song>Desolation Row</song>
+                    <!-- Add more songs as needed -->
+                </songs>
+            </album>
+            <album>
+                <title>Blonde on Blonde</title>
+                <release_year>1966</release_year>
+                <songs>
+                    <song>Rainy Day Women</song>
+                    <song>Visions of Johanna</song>
+                    <!-- Add more songs as needed -->
+                </songs>
+            </album>
+            <!-- Add more albums as needed -->
+        </albums>
+    </songer>
+
+    <songer>
+        <name>Beyoncé</name>
+        <city>Houston, Texas, USA</city>
+        <website>https://www.beyonce.com/</website>
+        <biography>Beyoncé is an American singer, songwriter, actress, and record producer...</biography>
+        <albums>
+            <album>
+                <title>Dangerously in Love</title>
+                <release_year>2003</release_year>
+                <songs>
+                    <song>Crazy in Love</song>
+                    <song>Naughty Girl</song>
+                    <!-- Add more songs as needed -->
+                </songs>
+            </album>
+            <album>
+                <title>B'Day</title>
+                <release_year>2006</release_year>
+                <songs>
+                    <song>Irreplaceable</song>
+                    <song>Deja Vu</song>
+                    <!-- Add more songs as needed -->
+                </songs>
+            </album>
+            <!-- Add more albums as needed -->
+        </albums>
+    </songer>
+
+    <songer>
+        <name>Bob Marley</name>
+        <city>Nine Mile, Jamaica</city>
+        <website>https://www.bobmarley.com/</website>
+        <biography>Bob Marley was a Jamaican singer, songwriter, and musician...</biography>
+        <albums>
+            <album>
+                <title>Exodus</title>
+                <release_year>1977</release_year>
+                <songs>
+                    <song>One Love / People Get Ready</song>
+                    <song>Jamming</song>
+                    <!-- Add more songs as needed -->
+                </songs>
+            </album>
+            <album>
+                <title>Legend</title>
+                <release_year>1984</release_year>
+                <songs>
+                    <song>Is This Love</song>
+                    <song>No Woman, No Cry</song>
+                    <!-- Add more songs as needed -->
+                </songs>
+            </album>
+            <!-- Add more albums as needed -->
+        </albums>
+    </songer>
+</artists>
