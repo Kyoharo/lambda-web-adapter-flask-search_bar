@@ -1,11 +1,3 @@
-# from flask import (Flask, jsonify)
-
-# app = Flask(__name__)
-
-
-# @app.route('/', methods=['GET', 'POST'])
-# def hello():
-#     return jsonify(status=200, message='hello world')
 
 from flask import Flask, request, render_template, Blueprint
 import xml.etree.ElementTree as ET
@@ -76,7 +68,3 @@ def search():
     return render_template("search_results.html",
                             results=results,
                            custom_css="search_results")
-
-# if __name__ == "__main__":
-#     port = int(os.environ.get('PORT', 5000))
-#     app.run(debug=True, host='0.0.0.0', port=port)
