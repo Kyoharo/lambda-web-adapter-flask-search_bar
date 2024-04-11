@@ -11,9 +11,11 @@ Key features:
     Display details of albums associated with the artist
 
 Technologies used:
-
+    
     Python
     Flask
+    Docker
+    SAM(Aws Serverless Application Model)
     Jinja
     ElementTree (XML library)
     Html
